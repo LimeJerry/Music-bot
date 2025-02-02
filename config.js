@@ -4,7 +4,7 @@ module.exports = {
         playing: '/help 듣는중',
         global: true,
         guild: process.env.GUILD_ID || 'xxx',
-        extraMessages: true,
+        extraMessages: false,
         loopMessage: true,
         lang: 'ko',
         enableEmojis: true,
