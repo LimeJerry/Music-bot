@@ -1,13 +1,13 @@
 module.exports = {
     app: {
         token: process.env.DISCORD_TOKEN || 'xxx',
-        playing: 'by the Community ❤️',
+        playing: '/help 듣는중',
         global: true,
         guild: process.env.GUILD_ID || 'xxx',
-        extraMessages: false,
-        loopMessage: false,
-        lang: 'en',
-        enableEmojis: false,
+        extraMessages: true,
+        loopMessage: true,
+        lang: 'ko',
+        enableEmojis: true,
     },
 
     emojis:{
